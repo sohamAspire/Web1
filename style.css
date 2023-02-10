@@ -1,0 +1,53 @@
+
+
+#navbarNav {
+  justify-content: end;
+}
+
+.row .col-4 {
+  display: block !important;
+  margin: auto !important;
+  padding: 0 !important;
+}
+.content {
+  text-align: justify;
+  line-height: 50px;
+}
+.images {
+  display: block;
+  margin: auto;
+}
+.cart {
+  display: block !important;
+  margin: auto !important;
+}
+#Logo {
+  transform: rotate(180deg) !important;
+  width: 2.2rem;
+}
+#banner{
+    position: relative !important;
+}
+#banner::after{
+    position: absolute;
+    content: '';
+    background: linear-gradient(45deg, #fff 10px, transparent 0),
+                linear-gradient(-45deg, #fff 10px, transparent 0);
+    background-repeat: repeat-x;
+    background-size: 22px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 32px;
+    z-index: 999;
+    
+}
+
+.navbar-nav a:focus{
+    border-bottom: 2px solid blue;
+}
+/* .dividion{
+    border-bottom: 10px solid transparent !important;
+    padding: 15px !important;
+    border-image: url('./images/black-triangle-260nw-484198510_prev_ui.png') 180 round !important;
+} */
